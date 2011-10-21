@@ -83,6 +83,8 @@ Once everything had been set up, and a flow of argon gas was provided that was i
 	\label{fig:copperSputtering}
 \end{figure}
 
+\subsection{Uncertainties}
+
 Although the plot shown in figure~\ref{fig:copperSputtering} has a smooth curve to it there are multiple possible causes for uncertainty in this experiment.
 
 The first is the use of a crystal monitor. Although it provides accurate measurements to a couple of nanometres, it is possible for the monitor to expire. If the mass build up on the monitor becomes too great then the measurements provided will no longer be accurate.
@@ -94,6 +96,20 @@ Other causes for error include our measurement of the pressure in the chamber. A
 Perhaps the most noteworthy cause of inaccuracy was the use of a plasma for the sputtering. Because the plasma is conductive measurements recorded while there was a plasma present where not measuring the resistance of the film on the substrate, but rather the plasma present in the chamber, which was wildly flucuating and not relevant to our experiment. In order to counter this all measurements of the resistance were after turning off the sputtering power for a period of time. Although this helped, the resistance was still observed to be in (greatly reduced) flucuation. This did not stop completely even after 30 seconds, but measurements were taken with only a 10 second pause because of time constraints. 
 
 Finally, there was resistance due to the copper, but there was also resistance due to the aluminium. For accuracy the resistance of the aluminium would have been subtracted from the measured resistance, except for the fact that this resistance was so small compared to the flucuations observed as to be relatively insignificant.
+
+\subsection{Discussion}
+
+Figure~\ref{fig:copperSputtering} shows an undoubtable decrease in resistance with film thickness increase. Although the shown graph suggests that resistance will decrease consistently, tabulated values show that it will eventually bottom out. For further work it is suggested that measurements are taken at least until this bottoming out is observed.
+
+Secondly it is clear that at around 10 nm the slope of the curve changes dramatically. This point is likely the perculation threshold. Up until then the copper did not form a contiguous layer ontop of the substrate but instead formed multiple adatoms on the surface. This would suggest that the notion of layer "thickness" prior to the perculation threshold is an inaccurate notion and an inconsistency between the crystal monitor (which was already covered in copper from previous experiments) and the substrate.
+
+Finally figure~\ref{fig:copperResistivity} shows the resistivity Vs thickness. Unfortunately the curve does not flatten out and so it is not possible to compare our recorded value for the bulk resistivity of copper with tabulated values. That said, tabulated values give the resistivity of copper at $20^{\circ}$ C as $1.7\times10^{-8}$. Thus in order to observe the bottoming out of the curve, assuming that it continues at the final observed gradient, measurements up to about 50 nm (at a rough estimate) would have to be recorded. Although this is feasible, it would certainly take a long time using the same experimental procedure. Automating the measurements and pressure regulation would be advised.
+
+\begin{figure}[h]
+	\includegraphics[width=\linewidth]{copperResistivity.png}
+	\caption{Resistivity Vs. Thickness}
+	\label{fig:copperResistivity}
+\end{figure}
 
 \section{Conclusions}
 
