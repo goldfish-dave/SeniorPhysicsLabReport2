@@ -13,9 +13,10 @@
 \date{\today}
 
 \begin{abstract}
+Two techniques for thin film deposition, evaporation deposition and magnetic sputtering deposition, were used sequentially to get in-situ measurements of the resistivity of copper wrtit's thickness. Although it was hoped that the bulk resistivity of copper could be measured the number of measurements taken was estimated to be roughly half that required for observation. In contrast, the perculation threshold was observed at around 10 nm thickness.
 \end{abstract}
 
-\keywords{supttering deposition, evaporation deposition}
+\keywords{supttering deposition, evaporation deposition, bulk film resistivity, perculation threshold}
 
 
 \maketitle
@@ -23,7 +24,7 @@
 
 \section{Introduction}
 
-The aim of this experiment was to measure the conductivity of a thin film of copper wrt. thickness. The introduction deals with the concepts of evaporation and sputtering deposition techniques, as well as a technique for measuring thin film thickness. The procedure outlines how the required vacuum was obtained and conductivity was measured. The results are represented by a chart of Resistance Vs Thickness and is accompanied by some discussion, followed by conclusions.
+The aim of this experiment was to measure the conductivity of a thin film of copper wrt thickness. The introduction deals with the concepts of evaporation and sputtering deposition techniques, as well as a technique for measuring thin film thickness. The procedure outlines how the required vacuum was obtained and conductivity was measured. The results are represented by a chart of Resistance Vs Thickness and is accompanied by some discussion, followed by conclusions.
 
 \subsection{Thin Film Deposition Techniques}
 
@@ -55,7 +56,7 @@ Prior to evacuating the chamber the substrate (two glass microscope slides) was 
 
 \begin{figure}[h]
 	\includegraphics[width=0.6\linewidth]{glassSlideArrangement.png}
-	\caption{Crossed glass slide arrangement}
+	\caption{Crossed glass slide arrangement\cite{labbook}}
 	\label{fig:slideArrangement}
 \end{figure}
 
@@ -103,7 +104,7 @@ Figure~\ref{fig:copperSputtering} shows an undoubtable decrease in resistance wi
 
 Secondly it is clear that at around 10 nm the slope of the curve changes dramatically. This point is likely the perculation threshold. Up until then the copper did not form a contiguous layer ontop of the substrate but instead formed multiple adatoms on the surface. This would suggest that the notion of layer "thickness" prior to the perculation threshold is an inaccurate notion and an inconsistency between the crystal monitor (which was already covered in copper from previous experiments) and the substrate.
 
-Finally figure~\ref{fig:copperResistivity} shows the resistivity Vs thickness. Unfortunately the curve does not flatten out and so it is not possible to compare our recorded value for the bulk resistivity of copper with tabulated values. That said, tabulated values give the resistivity of copper at $20^{\circ}$ C as $1.7\times10^{-8}$. Thus in order to observe the bottoming out of the curve, assuming that it continues at the final observed gradient, measurements up to about 50 nm (at a rough estimate) would have to be recorded. Although this is feasible, it would certainly take a long time using the same experimental procedure. Automating the measurements and pressure regulation would be advised.
+Finally figure~\ref{fig:copperResistivity} shows the resistivity Vs thickness. Unfortunately the curve does not flatten out and so it is not possible to compare our recorded value for the bulk resistivity of copper with tabulated values. That said, tabulated values give the resistivity of copper at $20^{\circ}$ C as $1.7\times10^{-8}$\cite{griffiths}. Thus in order to observe the bottoming out of the curve, assuming that it continues at the final observed gradient, measurements up to about 50 nm (at a rough estimate) would have to be recorded. Although this is feasible, it would certainly take a long time using the same experimental procedure. Automating the measurements and pressure regulation would be advised.
 
 \begin{figure}[h]
 	\includegraphics[width=\linewidth]{copperResistivity.png}
@@ -113,6 +114,11 @@ Finally figure~\ref{fig:copperResistivity} shows the resistivity Vs thickness. U
 
 \section{Conclusions}
 
-\section{Acknowledgments}
+In this experiment the resistance of copper wrt to thickness was measured to a thickness of 25 nm. This was insufficient to observe the bulk resistance of copper but doubling the number of measurements was estimated to be sufficient to observe the bulk resistance. Since the measurements taken only took about half an hour, doubling the measurements would be feasible. However because of the fluctuating nature of the pressure and the time required to wait for the plasma to disperse, it is recomended that a way to automate the measurements or regulate the pressure be devised, in order to allow for more repeatable results.
+
+Although the bulk resisitivity was not observed, the perculation threshold was. This is the threshold thickness at which the copper film becomes contiguous across the substrate and the rate of decrease of the resistivity decreases sharply. It was observed to be around 10 nm in thickness.
+
+
+\bibliography{report}
 
 \end{document}
